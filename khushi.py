@@ -17,7 +17,7 @@ def Main():
             from Google_Map.Map import map
             map()
         elif "exit " in Data:
-            Speak("ok Rehan , I am exit now.")   
+            Speak("ok SIR , I am exit now.")   
         else:
             pass
         Reply = ReplyBrain(Data)
